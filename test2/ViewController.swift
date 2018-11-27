@@ -9,12 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("test2")
+        print("test2")
+        print("commit2")
 
-print("test2")    }
-
-
+    }
+    
 }
 

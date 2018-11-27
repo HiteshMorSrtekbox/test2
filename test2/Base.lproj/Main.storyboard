@@ -23,9 +23,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Jj-YB-uwd">
+                                <rect key="frame" x="166.5" y="335" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="2Jj-YB-uwd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HmU-Sn-0dd"/>
+                            <constraint firstItem="2Jj-YB-uwd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="12" id="K4G-eJ-usB"/>
                             <constraint firstItem="s9A-dG-qTm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hPg-gm-wwt"/>
                             <constraint firstItem="s9A-dG-qTm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="j5k-ho-S6Y"/>
                         </constraints>
